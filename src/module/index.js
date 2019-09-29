@@ -9,7 +9,7 @@ module.exports = {
   build: {
     base: baseBuildConfig,
     main: mainBuildConfig,
-    ccm: ccmBuildConfig,
+    // ccm: ccmBuildConfig,
 
     // common: commonBuildConfig
   },
