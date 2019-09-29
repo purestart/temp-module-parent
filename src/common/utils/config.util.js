@@ -6,32 +6,15 @@ module.exports = {
     let baseURL = ''
     switch (domain) {
       case '127.0.0.1':
-        // config.baseURL = protocol + '//api.oristarcloud.com'
-        baseURL = protocol + '//apidev.oristarcloud.com'
-        // config.baseURL = 'http://apidevzynf.oristarcloud.com/'
-        // config.baseURL = 'http://172.17.10.43:9090';
-        // config.baseURL = 'http://172.99.100.8:9090';
+        // config.baseURL = protocol + '//api.xxxx.com'
+        baseURL = protocol + '//apidev.xxxx.com'
         break
-      case 'dev.oristarcloud.com':
-        baseURL = protocol + '//apidev.oristarcloud.com'
+      case 'dev.xxxx.com':
+        baseURL = protocol + '//apidev.xxxx.com'
         break
-      case 'www.oristarcloud.com':
-        baseURL = protocol + '//api.oristarcloud.com'
-        break
-      case 'test.oristarcloud.com':
-        baseURL = protocol + '//apitest.oristarcloud.com'
-        break
-      case 'devzynf.oristarcloud.com':
-        baseURL = protocol + '//apidevzynf.oristarcloud.com'
-        break
-      case 'testzynf.oristarcloud.com':
-        baseURL = protocol + '//apitestzynf.oristarcloud.com'
-        break
-      case 'pre.oristarcloud.com':
-        baseURL = protocol + '//apipre.oristarcloud.com'
-        break
+
       default:
-        baseURL = protocol + '//apidev.oristarcloud.com'
+        baseURL = protocol + '//apidev.xxxx.com'
         break
     }
     return baseURL
